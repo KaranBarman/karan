@@ -23,7 +23,9 @@ const Header = () => {
               unoptimized
             />
             <h1 className="text-white flex flex-col">
-              <span className="font-bold text-3xl">Karan Barman</span>
+              <span className="font-bold text-2xl md:text-3xl">
+                Karan Barman
+              </span>
               <span className="">@http.karan17</span>
             </h1>
           </div>
