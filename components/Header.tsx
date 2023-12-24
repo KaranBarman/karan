@@ -9,26 +9,28 @@ const Header = () => {
   return (
     <header
       className="w-full h-32
-   bg-cover flex items-center bg-gradient-to-r from-emerald-900"
+   bg-cover flex items-center bg-gradient-to-r from-blue-600"
     >
       <MaxWidthWrapper>
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-4">
-            <Image
-              src={"/me.jpg"}
-              height={100}
-              width={100}
-              alt="profile"
-              className="rounded-full border-white border-4"
-              unoptimized
-            />
+            <Link href={"/"}>
+              <Image
+                src={"/me.png"}
+                height={100}
+                width={100}
+                alt="profile"
+                className="rounded-full border-white border-4 bg-yellow-400"
+                unoptimized
+              />
+            </Link>
             <h1 className="text-white flex flex-col">
               <span className="font-bold text-xl md:text-3xl">
                 Karan Barman
               </span>
-              <span className="text-gray-400">
+              <span className="text-sm">
                 <Link href={"https://www.instagram.com/http.karan17/"}>
-                  @http.karan17
+                  Fullstack Developer
                 </Link>
               </span>
             </h1>

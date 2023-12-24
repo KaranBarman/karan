@@ -1,13 +1,20 @@
 import React from "react";
 import Skill from "./Skill";
 import SkillCategory from "./SkillCategory";
+import Link from "next/link";
+import { ArrowRightSquare, Download } from "lucide-react";
+import { Button } from "./ui/button";
+import { handleDownload } from "@/lib/downlaodpdf";
 
 const Skills = () => {
   return (
     <div className="mt-5">
-      <h2 className="text-2xl font-sans font-semibold text-white">
-        What i know
-      </h2>
+      <div className="flex justify-between items-center text-white">
+        <h2 className="text-2xl font-sans font-semibold">What i know</h2>
+        <Button className="flex items-center gap-2" onClick={handleDownload}>
+          Download Resume <Download />
+        </Button>
+      </div>
       <div className="grid grid-cols-1 gap-1 gap-y-4 lg:grid-cols-3 lg:gap-x-3 xl:grid-cols-4 md:gap-x-2 md:grid-cols-2 my-8">
         <SkillCategory
           category="Frontend"
