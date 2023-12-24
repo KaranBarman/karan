@@ -24,7 +24,7 @@ const Projects = () => {
         <ProjectCard
           h3="Ecommerce webite"
           p="Next JS 14, Typescript, React Hook Form, Shadcn, Tailwind css"
-          imageSrc="/pro2.jpg"
+          imageSrc="/pro1.jpg"
         />
         <ProjectCard
           h3="Ecommerce webite"
