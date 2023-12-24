@@ -46,7 +46,7 @@ const Header = () => {
               <Instagram className="h-4 w-4" />
             </Link>
             <Link
-              href={"https://www.instagram.com/http.karan17/"}
+              href={"https://wa.me/qr/HLTGUL44EJCCC1"}
               className={buttonVariants({
                 variant: "emerald",
                 className: "flex gap-2 items-center",
