@@ -17,7 +17,7 @@ const Projects = () => {
           p="Next JS 14, Typescript, React Hook Form, Shadcn, Tailwind css"
         />
         <ProjectCard
-          link="https://github.com/KaranBarman/user-management"
+          link="https://github.com/KaranBarman/e-commerce"
           h3="Ecommerce webite"
           p="Next JS 14, Typescript, React Hook Form, Shadcn, Tailwind css"
           imageSrc="/pro2.jpg"
