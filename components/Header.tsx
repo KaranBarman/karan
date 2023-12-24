@@ -3,7 +3,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 import Image from "next/image";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
-import { Instagram } from "lucide-react";
+import { Instagram, User, User2 } from "lucide-react";
 
 const Header = () => {
   return (
@@ -26,20 +26,37 @@ const Header = () => {
               <span className="font-bold text-xl md:text-3xl">
                 Karan Barman
               </span>
-              <span className="">@http.karan17</span>
+              <span className="text-gray-400">
+                <Link href={"https://www.instagram.com/http.karan17/"}>
+                  @http.karan17
+                </Link>
+              </span>
             </h1>
           </div>
-          <Link
-            href={"https://www.instagram.com/http.karan17/"}
-            className={buttonVariants({
-              variant: "secondary",
-              className: "flex gap-2 items-center",
-            })}
-          >
-            {}
-            <span className="hidden sm:block">Find me on instagrams</span>
-            <Instagram className="h-4 w-4" />
-          </Link>
+          <div className="flex gap-2">
+            <Link
+              href={"https://www.instagram.com/http.karan17/"}
+              className={buttonVariants({
+                variant: "secondary",
+                className: "flex gap-2 items-center",
+              })}
+            >
+              {}
+              <span className="hidden sm:block">Find me on instagrams</span>
+              <Instagram className="h-4 w-4" />
+            </Link>
+            <Link
+              href={"https://www.instagram.com/http.karan17/"}
+              className={buttonVariants({
+                variant: "emerald",
+                className: "flex gap-2 items-center",
+              })}
+            >
+              {}
+              <span className="hidden sm:block">Contact</span>
+              <User2 className="h-4 w-4" />
+            </Link>
+          </div>
         </div>
       </MaxWidthWrapper>
     </header>

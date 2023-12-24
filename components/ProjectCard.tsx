@@ -14,8 +14,8 @@ interface ProjectCardProps {
 }
 const ProjectCard = ({ imageSrc, h3, p, link }: ProjectCardProps) => {
   return (
-    <div className="bg-white rounded-md overflow-hidden">
-      <Link href={link}>
+    <Link href={link}>
+      <div className="bg-white rounded-md overflow-hidden">
         <Image
           src={imageSrc}
           style={imageStyle}
@@ -29,8 +29,8 @@ const ProjectCard = ({ imageSrc, h3, p, link }: ProjectCardProps) => {
           <h3 className="font-semibold text-xl">{h3}</h3>
           <p className="text-sm text-muted-foreground h-16">{p}</p>
         </div>
-      </Link>
-    </div>
+      </div>
+    </Link>
   );
 };
 
