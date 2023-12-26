@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header
       className="w-full h-32
-   bg-cover flex items-center bg-gradient-to-r from-blue-600"
+   bg-cover flex items-center bg-gradient-to-r from-gray-900"
     >
       <MaxWidthWrapper>
         <div className="flex justify-between items-center">
@@ -20,7 +20,7 @@ const Header = () => {
                 height={100}
                 width={100}
                 alt="profile"
-                className="rounded-full border-white border-4 bg-yellow-400"
+                className="rounded-full border-white border-4 bg-gradient-to-tr from-white"
                 unoptimized
               />
             </Link>
@@ -28,7 +28,7 @@ const Header = () => {
               <span className="font-bold text-xl md:text-3xl">
                 Karan Barman
               </span>
-              <span className="text-sm">
+              <span className="text-sm text-muted-foreground">
                 <Link href={"https://www.instagram.com/http.karan17/"}>
                   Fullstack Developer
                 </Link>

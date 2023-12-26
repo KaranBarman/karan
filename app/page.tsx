@@ -13,6 +13,15 @@ export default function Home() {
       <MaxWidthWrapper>
         <Projects />
         <Skills />
+        <div className="py-6">
+          <h2 className="text-white text-2xl font-semibold pb-3">
+            Karan Barman
+          </h2>
+          <p className="text-muted-foreground">
+            Full stack software developer with expertise in front-end and
+            back-end development.
+          </p>
+        </div>
       </MaxWidthWrapper>
       <Footer />
     </div>

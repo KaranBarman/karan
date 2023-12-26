@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="py-8 bg-gradient-to-r from-blue-600">
+    <div className="py-8 bg-gradient-to-r from-gray-900">
       <MaxWidthWrapper>
         <Link
           href={"/contactme"}
