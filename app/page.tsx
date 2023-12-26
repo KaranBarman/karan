@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Projects from "@/components/Projects";
@@ -13,6 +14,7 @@ export default function Home() {
         <Projects />
         <Skills />
       </MaxWidthWrapper>
+      <Footer />
     </div>
   );
 }

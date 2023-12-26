@@ -11,7 +11,11 @@ const Skills = () => {
     <div className="mt-5">
       <div className="flex justify-between items-center text-white">
         <h2 className="text-2xl font-sans font-semibold">What i know</h2>
-        <Button className="flex items-center gap-2" onClick={handleDownload}>
+        <Button
+          className="flex items-center gap-2"
+          variant={"ghost"}
+          onClick={handleDownload}
+        >
           Download Resume <Download />
         </Button>
       </div>
