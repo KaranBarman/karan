@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="py-8 bg-gradient-to-r from-gray-900">
       <MaxWidthWrapper>
         <Link
-          href={"/contactme"}
+          href={"/contact"}
           className={buttonVariants({ variant: "secondary" })}
         >
           Contact me
