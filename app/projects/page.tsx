@@ -22,8 +22,8 @@ const page = () => {
             imageSrc="/pro2.jpg"
           />
           <ProjectCard
-            link="https://github.com/KaranBarman/user-management"
-            h3="Ecommerce webite"
+            link="https://threads-karan.vercel.app"
+            h3="Threads Clone"
             p="Next JS 14, Typescript, React Hook Form, Shadcn, Tailwind css"
             imageSrc="/pro1.jpg"
           />
