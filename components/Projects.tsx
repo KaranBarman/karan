@@ -18,16 +18,16 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 gap-1 gap-y-4 lg:grid-cols-3 lg:gap-x-3 xl:grid-cols-4 md:gap-x-2 md:grid-cols-2 my-8">
         <ProjectCard
-          link="https://github.com/KaranBarman/user-management"
-          h3="Crud Operations"
-          imageSrc="/pro1.jpg"
+          link="https://threads-karan.vercel.app/"
+          h3="Threads clone"
+          imageSrc="/Screenshot (372).png"
           p="Next JS 14, Typescript, React Hook Form, Shadcn, Tailwind css"
         />
         <ProjectCard
-          link="https://github.com/KaranBarman/e-commerce"
-          h3="Ecommerce webite"
+          link="https://durga-digitals.vercel.app/"
+          imageSrc="/Screenshot (371).png"
+          h3="My Freelancing Website"
           p="Next JS 14, Typescript, React Hook Form, Shadcn, Tailwind css"
-          imageSrc="/pro2.jpg"
         />
         <ProjectCard
           link="https://schema-flor.vercel.app"
