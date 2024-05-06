@@ -30,10 +30,10 @@ const Projects = () => {
           imageSrc="/pro2.jpg"
         />
         <ProjectCard
-          link="https://github.com/KaranBarman/user-management"
-          h3="Ecommerce webite"
+          link="https://schema-flor.vercel.app"
+          h3="Schema Flor"
           p="Next JS 14, Typescript, React Hook Form, Shadcn, Tailwind css"
-          imageSrc="/pro1.jpg"
+          imageSrc="/Screenshot (370).png"
         />
         <ProjectCard
           link="https://github.com/KaranBarman/user-management"
