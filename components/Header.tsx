@@ -3,7 +3,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 import Image from "next/image";
 import Link from "next/link";
 import { buttonVariants } from "./ui/button";
-import { Instagram, User, User2 } from "lucide-react";
+import { Instagram, User2 } from "lucide-react";
 
 const Header = () => {
   return (
@@ -29,7 +29,7 @@ const Header = () => {
                 Karan Barman
               </span>
               <span className="text-sm text-muted-foreground">
-                <Link href={"https://www.instagram.com/http.karan17/"}>
+                <Link href={"https://www.instagram.com/snorlax.karan"}>
                   Fullstack Developer
                 </Link>
               </span>
@@ -37,7 +37,7 @@ const Header = () => {
           </div>
           <div className="flex gap-2">
             <Link
-              href={"https://www.instagram.com/http.karan17/"}
+              href={"https://www.instagram.com/snorlax.karan"}
               className={buttonVariants({
                 variant: "secondary",
                 className: "flex gap-2 items-center",

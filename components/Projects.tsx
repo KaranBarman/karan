@@ -36,10 +36,10 @@ const Projects = () => {
           imageSrc="/Screenshot (370).png"
         />
         <ProjectCard
-          link="https://github.com/KaranBarman/user-management"
-          h3="Ecommerce webite"
+          link="https://flashcards-nine-iota.vercel.app/"
+          h3="Flashcards"
           p="Next JS 14, Typescript, React Hook Form, Shadcn, Tailwind css"
-          imageSrc="/pro2.jpg"
+          imageSrc="/ss.png"
         />
       </div>
     </div>
