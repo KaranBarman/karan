@@ -16,7 +16,7 @@ const Header = () => {
           <div className="flex items-center gap-4">
             <Link href={"/"}>
               <Image
-                src={"/pro.png"}
+                src={"/IMG_20240308_230627_066.jpg"}
                 height={100}
                 width={100}
                 alt="profile"
